@@ -1,0 +1,53 @@
+.widgets {
+  flex: 0.2;
+  position: sticky;
+  top: 105px;
+  background-color: white;
+  border-radius: 10px;
+  border: 1px solid lightgray;
+  height: fit-content;
+  padding-bottom: 10px;
+}
+
+.widgets__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+.widgets__header > h2 {
+  font-size: large;
+  font-weight: 400;
+}
+
+.widgets__article {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.widgets__article:hover {
+  background-color: rgb(220, 218, 218);
+}
+
+.dot_icon {
+  transform: scale(0.4);
+  color: gray;
+}
+
+.widgets__articleRight > h4 {
+  font-size: 12px;
+  font-weight: 600;
+  margin-top: 15px;
+  padding-bottom: 5px;
+}
+
+.widgets__articleRight > h6 {
+  font-size: 10px;
+  font-weight: 400;
+  padding-bottom: 5px;
+}
+
+.info_icon {
+  transform: scale(0.6);
+}
